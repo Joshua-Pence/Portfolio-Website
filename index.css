@@ -3,14 +3,55 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../web-2592005_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header img {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+
+}
+
+header h1 {
+    color: white;
+    opacity: 1;
+}
+
+header h2 {
+    color: white;
+}
 footer {
-    width: 100%;
+    background-color: black;
+    text-align: center;
     display: fixed;
-    position: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 footer li {
     display: inline-block;
     padding: 0px 30px;
     color: blue;
+}
+
+footer strong {
+    color: white;
+}
+
+footer h2 {
+    color: white;
+}
+
+.projects h2 {
+    text-align: center;
 }
