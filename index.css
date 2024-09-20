@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -8,17 +9,27 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+  
 header img {
     height: 100px;
     width: 100px;
     margin: 15px;
     border-radius: 50%;
+    opacity: 0.5;
+}
+header img:hover {
+    opacity: 1;
+    transition: 2s;
 }
 
+header img {
+    opacity: 0.5;
+    transition: 2s;
+}
 header {
     background-color: black;
     text-align: center;
-
+    letter-spacing: .5px;
 }
 
 header h1 {
@@ -40,8 +51,24 @@ footer {
 
 footer li {
     display: inline-block;
-    padding: 0px 30px;
+    padding: 15px 30px;
     color: blue;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer button:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 0px 0px;
 }
 
 footer strong {
@@ -52,6 +79,17 @@ footer h2 {
     color: white;
 }
 
-.projects h2 {
-    text-align: center;
+.project-1 {
+    background-color: rgb(15, 15, 15);
+    color: rgb(30, 30, 30);
+}
+
+.project-2 {
+    background-color: rgb(30, 30, 30);
+    color: rgb(15, 15, 15)
+}
+
+.project-3 {
+    background-color: rgb(45, 45, 45);
+    color: rgb(0, 0, 0);
 }
